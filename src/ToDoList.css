@@ -1,0 +1,124 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.to-do-list {
+    width: 600px;
+    margin: 50px auto 20px;
+    text-align: center;
+}
+
+.to-do-list h1 {
+    font-size: 40px;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+
+/* Input */
+input[type="text"] {
+    width: 400px;
+    height: 40px;
+    padding: 0 12px;
+
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus {
+    border-color: #555;
+}
+
+
+
+.Add-Task {
+    height: 40px;
+    margin-left: 8px;
+    padding: 0 18px;
+    border: none;
+    border-radius: 6px;
+    background-color: #333;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.Add-Task:hover {
+    background-color: #555;
+}
+
+ol {
+    width: 650px;
+    margin: 30px auto;
+    padding-left: 45px;
+}
+
+li {
+    margin-bottom: 12px;
+    padding: 12px;
+
+    background-color: white;
+    border-radius: 8px;
+
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+
+.text {
+    flex: 1;
+    font-size: 17px;
+    color: #333;
+}
+
+
+/* All task buttons */
+li button {
+    border: none;
+    border-radius: 5px;
+
+    padding: 7px 10px;
+
+    color: white;
+    cursor: pointer;
+}
+
+
+/* Delete */
+.delete-button {
+    background-color: #e74c3c;
+}
+
+.delete-button:hover {
+    background-color: #c0392b;
+}
+
+
+/* Up */
+.Up-button {
+    background-color: #3498db;
+}
+
+.Up-button:hover {
+    background-color: #2980b9;
+}
+
+
+/* Down */
+.Down-button {
+    background-color: #2ecc71;
+}
+
+.Down-button:hover {
+    background-color: #27ae60;
+}

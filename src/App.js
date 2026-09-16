@@ -1,13 +1,15 @@
 
 
-import Stopwatch from './Stopwatch';
+import Form from './Form';
 
 
 function App() {
 
 return(<>
 
-<Stopwatch />
+
+<Form />
+
 
 </>
 

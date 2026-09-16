@@ -1,0 +1,74 @@
+body {
+    background :rgb(214, 212, 212);
+    text-align: center;
+
+}
+.container {
+    width: 500px;
+    margin: auto;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    margin-top: 20px;
+    text-align: center;
+
+}
+h1 {
+    font-size: x-large;
+    color: #4206a3;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+input[type="radio"] {
+    display: inline;
+    width: 10%;
+    margin: 0 5px 0 15 ;
+}
+
+
+label {
+    margin-top: 8px;
+    width: 100%;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: left;
+    color: #555;
+
+}
+input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    box-sizing: border-box;
+}
+textarea {
+    resize: none;
+    width: 97%;
+    min-height: 100px;
+    max-height: 150px;
+}
+
+button {
+    background-color: #4206a3;
+    color: white;
+    padding: 10px 15px;
+    margin : 15px ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 40%;
+}
+
+button:hover {
+    background-color: #2b036c;
+}
